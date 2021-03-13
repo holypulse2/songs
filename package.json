@@ -1,0 +1,6 @@
+{
+    "private": true,
+    "name": "songs-monorepo",
+    "workspaces": ["frontend", "backend"],
+    "scripts": {}
+ }
