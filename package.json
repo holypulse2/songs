@@ -1,6 +1,8 @@
 {
     "private": true,
     "name": "songs-monorepo",
-    "workspaces": ["frontend", "backend"],
-    "scripts": {}
+    "workspaces": ["packages/*"],
+    "scripts": {
+        "startall": "yarn install && cd packages/frontend && yarn run build && cd ../backend && yarn start"
+    }
  }
