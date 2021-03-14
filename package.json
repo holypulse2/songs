@@ -3,6 +3,6 @@
     "name": "songs-monorepo",
     "workspaces": ["packages/*"],
     "scripts": {
-        "startall": "yarn install && cd packages/frontend && yarn run build && cd ../backend && yarn start"
+        "start": "yarn install && cd packages/frontend && yarn run build && cd ../backend && yarn start"
     }
  }
